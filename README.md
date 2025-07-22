@@ -1,4 +1,4 @@
-# Case 1: Segmentação Comportamental com Spark (RFMT + PCA + KMeans)
+# Segmentação Comportamental com Spark (RFMT + PCA + KMeans)
 # Dataset: registros transacionais
 # Plataforma: Databricks (Spark nativo)
 
