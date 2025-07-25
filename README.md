@@ -1,3 +1,5 @@
+# Como segmentar clientes de forma escalável e baseada em dados para estratégias de marketing personalizadas, quando se trabalha com grandes volumes de dados transacionais
+
 # Segmentação Comportamental com Spark (RFMT + PCA + KMeans)
 # Dataset: registros transacionais
 # Plataforma: Databricks (Spark nativo)
