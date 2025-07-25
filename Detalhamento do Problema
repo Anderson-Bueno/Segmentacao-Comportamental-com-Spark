@@ -1,0 +1,29 @@
+Detalhamento do Problema:
+
+Empresas com milhões de transações (ex: varejo, e-commerce) não conseguem tratar clientes de forma "genérica" sem perder oportunidades.
+
+Problema tradicional: Segmentação manual (ex: RFM clássico) é ineficaz para grandes volumes e não captura relações complexas entre variáveis.
+
+Desafio Técnico:
+
+Dados transacionais têm alta dimensionalidade (muitas colunas correlacionadas, como frequência, ticket médio, recência).
+
+Colinearidade entre features (ex: ticket médio × valor total gasto) distorce algoritmos de clusterização tradicionais.
+
+Solução:
+
+O modelo automatiza a segmentação combinando:
+
+RFMT: Métrica consolidada para capturar comportamento (Recência, Frequência, Monetário, Tempo).
+
+PCA: Reduz colinearidade e ruído, melhorando a geometria dos clusters.
+
+K-Means: Agrupa clientes com padrões similares, mesmo em escala massiva (graças ao Spark).
+
+Impacto do Modelo (Valor Gerado):
+
+Para a Ciência de Dados:
+
+Pipeline replicável para outros cenários (ex: churn prediction, upsell).
+
+Escalabilidade garantida pelo Spark (bilhões de registros).
